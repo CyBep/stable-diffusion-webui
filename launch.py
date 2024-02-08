@@ -1,3 +1,5 @@
+import os
+os.environ["COMMANDLINE_ARGS"] = os.environ["COMMANDLINE_ARGS"]+" --gradio-auth sdwebui:hOup7cUdLtpAuB9LrNAQE4eQ2BWo3V7W"
 from modules import launch_utils
 
 
